@@ -41,13 +41,13 @@ const input = '# [this] is a header \n\n And this a paragraphe'
       <h1>Marckodwon</h1>
       <div className="demo">
         
-        {/* <CopyBlock
+        <CopyBlock
           language="html"
           text={jsxx}
           codeBlock
           theme={hybrid}
           showLineNumbers={true}
-        /> */}
+        />
       </div>
 
       <ReactMarkdown source={input} />
